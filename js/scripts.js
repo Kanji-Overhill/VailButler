@@ -50,6 +50,20 @@ $(document).ready(function(){
   slidesToShow: 1,
   slidesToScroll: 1,
 });
+   $('.slider-tre').slick({
+  dots: false,
+  arrows: false,
+  infinite: true,
+  autoplay: true,
+  autoplaySpeed: 6000,
+  pauseOnHover: false,
+  ouchMove: false,
+  speed: 600,
+  fade: true,
+  cssEase: 'linear',
+  slidesToShow: 1,
+  slidesToScroll: 1,
+});
   $('.slid-text').slick({
   dots: false,
   arrows: false,

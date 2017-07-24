@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Roboto:700i,900i');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i');
 
 /*Estilos Generales y Reset*/
 html, body, div, span, applet, object, iframe,
@@ -62,6 +63,7 @@ table {
 header{
   width: 100%;
   padding: 15px 0;
+  background-color: #60789b;
 }
 nav{
   width: 95%;
@@ -70,8 +72,8 @@ nav{
   padding: 0 15px;
 }
 .button-contact{
-    border: 1px solid #999;
-    color: #999;
+    border: 1px solid #fff;
+    color: #fff;
     border-radius: 4px;
     padding: 0 12px;
     display: inline-block;
@@ -89,8 +91,8 @@ nav{
 }
 nav .contact{
   float: right;
-  border: 1px solid #999;
-  color: #999;
+  border: 1px solid #fff;
+  color: #fff;
   border-radius: 4px;
   padding: 0 12px;
   margin-left: 10px;
@@ -103,7 +105,7 @@ nav .contact{
 }
 nav .normal{
   float: right;
-  color: #000000;
+  color: #ffffff;
   border-radius: 4px;
   padding: 0 12px;
   margin-left: 10px;
@@ -118,14 +120,15 @@ nav .phone{
   color: #e00505;
 }
 nav .normal:hover{
-  color: #0bb8e3;
+  color: #000000;
 }
 nav .contact:hover{
-  color: #0bb8e3;
-  border: 1px solid #0bb8e3;
+  color: #60789b;
+  border: 1px solid #fff;
+  background-color: #ffffff;
 }
 .logo img{
-  width: 110px;
+  width: 220px;
 }
 .index-sec-1{
   position: relative;
@@ -266,9 +269,16 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
   height: 490px;
   position: relative;
   width: 100%;
-  background-position: top;
-  background-size: cover;
-  background-image: url(../images/05.28.2017_20.22.09.jpg);
+}
+.index-sec-4 .slider-tre{
+  min-height: 490px;
+  width: 100%;
+}
+.index-sec-4 .slider-tre .item-slid{
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 490px;
+    background-position: center;
 }
 .index-sec-4 h2{
   font-weight: 900;
@@ -284,9 +294,49 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
 }
 .index-sec-4 .overlay{
   position: absolute;
-  background-color: rgba(0,0,0,0.25);
+  background-color: rgba(0,0,0,0.5);
   height: 490px;
   width: 100%;
+  top: 0;
+}
+.index-sec-4 .text-over{
+  position: absolute;
+  z-index: 5;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-start;
+  padding: 0 50px;
+}
+.index-sec-4 .text-over p{
+  flex: 0 1 auto;
+  font-weight: bold;
+  line-height: 80px;
+  color: #ffffff;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+.index-sec-4 .text-over a{
+  font-size: 15px;
+  transition: all .3s;
+  line-height: normal;
+  padding: 10px 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  border-radius: 300px;
+  border:1px solid #ffffff;
+}
+.index-sec-4 .text-over a:hover{
+  color: black;
+  background-color: #ffffff;
+}
+.index-sec-4 .text-over 1{
+  flex: 0  1 auto;
 }
 .index-sec-5{
   width: 100%;
@@ -353,12 +403,15 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
 }
 .title-slim h1{
   text-align: center;
-  color: #424242;
-  font-family: 'Roboto', sans-serif;
+  color: #60789b;
+  font-family: 'Playfair Display', serif;
+  font-weight: normal;
+  font-size: 72px;
+  padding-top: 100px;
+}
+.title-slim h1 b{
   font-style: italic;
-    font-weight: bold;
-    font-size: 72px;
-    padding-top: 100px;
+  font-weight: normal;
 }
 .text-p h3{
   padding: 15px 0;
