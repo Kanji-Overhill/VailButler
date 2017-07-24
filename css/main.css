@@ -36,9 +36,13 @@ input, select, textarea, option {
 input, select, textarea, button, option:focus{
   outline: none;
       font-family: 'Lato', sans-serif;
+      font-weight: 300;
+      color: #000000;
 }
 body {
   line-height: 1;
+  font-weight: 300;
+  color: #000000;
   font-family: 'Lato', sans-serif;
 }
 ol, ul {
@@ -86,8 +90,8 @@ nav{
     margin-top: 20px;
 }
 .button-contact:hover{
-  color: #0bb8e3;
-  border: 1px solid #0bb8e3;
+  color: #60789b;
+  border: 1px solid #60789b;
 }
 nav .contact{
   float: right;
@@ -96,20 +100,20 @@ nav .contact{
   border-radius: 4px;
   padding: 0 12px;
   margin-left: 10px;
-  font-weight: bold;
   transition: all .3s;
   -webkit-transition: all .3s;
   height: 40px;
   line-height: 2.4em;
   margin-top: 15px;
+  font-family: 'Playfair Display', serif;
 }
 nav .normal{
   float: right;
   color: #ffffff;
   border-radius: 4px;
+  font-family: 'Playfair Display', serif;
   padding: 0 12px;
   margin-left: 10px;
-  font-weight: bold;
   transition: all .3s;
   -webkit-transition: all .3s;
   height: 40px;
@@ -172,7 +176,7 @@ nav .contact:hover{
 }
 .index-sec-1 .buttons-slid a:first-child{
   margin: 0 20px 0 0;
-  background: #0bb8e3;
+  background: #60789b;
   color: white;
 }
 .index-sec-1 .buttons-slid a{
@@ -180,7 +184,7 @@ nav .contact:hover{
   display: inline-block;
   vertical-align: top;
   background: white;
-  color: #0bb8e3;
+  color: #60789b;
   border: 0;
   border-radius: 5px;
   cursor: pointer;
@@ -197,7 +201,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
 }
 .index-sec-2{
   width: 100%;
-  color: #434343;
+  color: #000;
   padding-top: 40px;
   padding-bottom: 40px;
   background: white;
@@ -234,7 +238,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
   background: #f4f4f4;
   padding: 100px 0;
   padding-bottom: 30px;
-  color: #434343;
+  color: #000;
 }
 .index-sec-3 h2{
   margin-bottom: 100px;
@@ -255,7 +259,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
   width: 50%;
 }
 .index-sec-3 .contain .item-contain b{
-  color: #0bb8e3;
+  color: #60789b;
   padding-bottom: 50px;
   font-size: 25px;
 }
@@ -290,7 +294,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
   z-index: 2;
 }
 .slick-prev:before, .slick-next:before{
-  color: #434343;
+  color: #000;
 }
 .index-sec-4 .overlay{
   position: absolute;
@@ -340,7 +344,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
 }
 .index-sec-5{
   width: 100%;
-  color: #434343;
+  color: #000;
   padding: 40px 0;
 }
 .quote{
@@ -376,7 +380,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
 }
 .slid-text p{
   font-size: 20px;
-  color: #434343;
+  color: #000;
   text-align: center;
   padding-bottom: 30px;
   cursor: pointer;
@@ -392,7 +396,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
   width: 95%;
   max-width: 766px;
   margin: 0 auto;
-  color: #434343;
+  color: #000;
   padding: 30px 0;
 }
 .title-slim{
@@ -505,7 +509,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
   text-align: center;
       font-size: 16px;
     line-height: 22px;
-    color: #4e4d4d;
+    color: #000;
 }
 .element_1 {
     font-family: 'Raleway', sans-serif;
@@ -517,12 +521,12 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 72px;
-    color: #0bb8e3;
+    color: #60789b;
 }
 .typed-cursor {
     opacity: 1;
     font-size: 72px;
-    color: #0bb8e3;
+    color: #60789b;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
@@ -570,7 +574,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
     margin-top: 20px;
     text-transform: uppercase;
     cursor: pointer;
-    background-color: #0bb8e3;
+    background-color: #60789b;
     border-radius: 5px;
     font-size: 21px;
 }
@@ -758,25 +762,25 @@ fieldset .contain-check:last-child label{
   -webkit-transition: all .3s;
 }
 .app .app-cont-2 .active{
-  background: #0bb8e3;
+  background: #60789b;
   color: #fff;
   border:1px solid #fff;
 }
 .app .app-cont-2 button:hover{
-  background: #0bb8e3;
+  background: #60789b;
   color: #fff;
   border:1px solid #fff;
 }
 .app .app-cont-2 .active-button{
-  background: #0bb8e3;
+  background: #60789b;
   color: #fff;
   border:1px solid #fff;
 }
 .app .app-cont-2 input[type="submit"]{
   font-size: 18px;
   display: block;
-  border: 1px solid #0bb8e3;
-  background: #0bb8e3;
+  border: 1px solid #60789b;
+  background: #60789b;
   color: #fff;
   cursor: pointer;
   padding: 10px 30px;
@@ -821,6 +825,7 @@ fieldset .contain-check:last-child label{
 footer{
   width: 100%;
   padding-top: 20px;
+  background-color: #60789b;
   padding-bottom: 20px;
   background-position: top;
   position: relative;
@@ -833,8 +838,8 @@ footer .social{
   margin: 0 auto;
 }
 footer .social a{
-  color: #000;
-  border: 2px solid #000;
+  color: #fff;
+  border: 2px solid #fff;
   border-radius: 100%;
   margin-right: 10px;
   width: 50px;
@@ -846,8 +851,8 @@ footer .social a{
   position: relative;
 }
 footer .social a:hover{
-  color: #00647d;
-    border: 2px solid #00647d;
+  color: #ffffff;
+    border: 2px solid #ffffff;
 }
 footer .direccion{
   position: absolute;
@@ -855,7 +860,7 @@ footer .direccion{
   z-index: 5;
   opacity: 1;
   top: 0;
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
   line-height: 22px;
 }
@@ -873,17 +878,16 @@ footer ul li{
   margin-right:  15px;
 }
 footer ul li a{
-  color: #000000;
+  color: #ffffff;
   font-size: 18px;
   transition: all .3s;
   -webkit-transition: all .3s;
 }
 footer ul li a:hover{
-  color:#00647d;
+  color:#ffffff;
 }
 footer .overlay{
   height: 150px;
-  background-image: url(../images/investment-property-Adelaide.png);
   width: 100%;
   position: absolute;
   background-size: cover;
