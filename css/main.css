@@ -75,8 +75,8 @@ nav{
   padding: 0 15px;
 }
 .button-contact{
-    border: 1px solid #fff;
-    color: #fff;
+    border: 1px solid #60789b;
+    color: #60789b;
     border-radius: 4px;
     padding: 0 12px;
     display: inline-block;
@@ -84,12 +84,13 @@ nav{
     font-weight: bold;
     transition: all .3s;
     -webkit-transition: all .3s;
-    height: 40px;
+    height: 44px;
     line-height: 2.4em;
     margin-top: 20px;
 }
 .button-contact:hover{
-  color: #60789b;
+  color: #fff;
+  background-color: #60789b;
   border: 1px solid #60789b;
 }
 nav .contact{
