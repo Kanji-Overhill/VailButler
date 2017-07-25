@@ -104,7 +104,7 @@ nav .contact{
   -webkit-transition: all .3s;
   height: 44px;
   line-height: 2.4em;
-  margin-top: 15px;
+  margin-top: 7px;
   font-family: 'Playfair Display', serif;
   font-size: 18px;
 }
@@ -120,7 +120,7 @@ nav .normal{
   -webkit-transition: all .3s;
   height: 40px;
   line-height: 2.4em;
-  margin-top: 15px;
+  margin-top: 7px;
 }
 nav .phone{
   color: #e00505;
