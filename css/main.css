@@ -84,7 +84,7 @@ nav{
     font-weight: bold;
     transition: all .3s;
     -webkit-transition: all .3s;
-    height: 44px;
+    height: 35px;
     line-height: 2.4em;
     margin-top: 20px;
 }
@@ -905,11 +905,65 @@ footer .overlay{
     padding-top: 80px;
 }
 @media screen and (max-width: 500px){
+  .app .app-cont{
+    width: 100%;
+  }
+  .app .app-cont-2{
+    width: 100%;
+  }
+  .app .header-app{
+    text-align: left;
+  }
+  .app .app-cont-2 input[type="submit"]{
+    margin: 0 auto;
+  }
+  .app .header-app label{
+    display: block;
+  }
+  .app .header-app input{
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 0;
+  }
+  .app .app-cont-2 button {
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    background: none;
+    border: 1px solid #000000;
+    padding: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+}
+  .app .app-cont img{
+    display: none;
+  }
+  .contain-check{
+    display: inline-block;
+  }
+  fieldset .contain-check:last-child{
+    display: block;
+  }
+  .contain-check textarea{
+    width: 95%;
+  }
+  .logo img {
+    width: 100px;
+  }
   .big h1{
     padding-top: 40px
   }
   .contact-sec-1{
     width: 95%;
+  }
+  .index-sec-2 ul li{
+    padding: 0 5px;
+  }
+  .index-sec-4 .text-over p{
+    font-size: 20px;
   }
   .contact-sec-1 div{
     width: 100%;
@@ -942,15 +996,18 @@ footer .overlay{
 }
 nav .normal{
   margin-left: 3px;
-      padding: 0 3px;
-      line-height: 3.2em;
-      font-size: 12px
+  padding: 0 3px;
+  line-height: normal;
+  font-size: 12px;
+  height: auto;
 }
 nav .contact{
-  line-height: 3.2em;
+  line-height: normal;
   margin-left: 3px;
+  height: auto;
+  border: 0;
   font-size: 12px;
-      padding: 0 3px;
+  padding: 0 3px;
 }
 .element_1{
   font-size: 40px;
@@ -981,8 +1038,31 @@ nav .contact{
   font-size: 10px;
 }
 .index-sec-2 ul li p{
-  font-size: 12px;
+  font-size: 10px;
   line-height: 14px;
+}
+.title-slim{
+  min-height: 100px;
+}
+.table .contain-table{
+  width: 100%;
+}
+.index-sec-4 .slider-tre{
+  height: 250px;
+}
+footer ul{
+  text-align: center;
+}
+footer .social{
+  text-align: center;
+  padding-bottom: 0;
+}
+.index-sec-4 .slider-tre .item-slid{
+  min-height: 250px;
+}
+.index-sec-6 p{
+  font-size: 1.2em;
+  padding-top: 20px;
 }
 .index-sec-4 h2{
     font-weight: 900;
@@ -992,6 +1072,9 @@ nav .contact{
     text-align: center;
     position: relative;
     z-index: 2;
+}
+.index-sec-5{
+  padding: 10px 0;
 }
 .index-sec-4 {
   height: 250px;
@@ -1006,6 +1089,7 @@ footer .direccion{
 }
 footer ul li a{
   font-size: 14px;
+  line-height: 20px;
 }
 footer .overlay{
   background-repeat: no-repeat;
