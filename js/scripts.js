@@ -52,13 +52,13 @@ $(document).ready(function(){
 });
    $('.slider-tre').slick({
   dots: false,
-  arrows: false,
+  arrows: true,
   infinite: true,
   autoplay: true,
   autoplaySpeed: 6000,
   pauseOnHover: false,
   ouchMove: false,
-  speed: 600,
+  speed: 300,
   fade: true,
   cssEase: 'linear',
   slidesToShow: 1,
