@@ -1051,6 +1051,18 @@ footer .overlay{
   color: #252525;
   border-bottom: 4px solid #00a9e0;
 }
+.sec-links li a{
+  cursor: pointer;
+}
+#map iframe{
+  width: 100%;
+}
+#tour iframe{
+  width: 100%;
+}
+.display-none{
+  display: none;
+}
 @media screen and (max-width: 500px){
   .app .app-cont{
     width: 100%;
