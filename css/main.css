@@ -413,7 +413,7 @@ box-shadow: 0px 0px 30px 9px rgba(0,0,0,0.75);
   font-family: 'Playfair Display', serif;
   font-weight: normal;
   font-size: 72px;
-  padding-top: 100px;
+  padding-top: 70px;
 }
 .title-slim h1 b{
   font-style: italic;
@@ -965,6 +965,91 @@ footer .overlay{
   display: block;
   width: 100%;
   padding: 10px 0;
+}
+.proper-head{
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+  font-size: 0;
+}
+.proper-head .slider-tre{
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+.proper-head .slider-tre .item-slid{
+  min-height: 400px;
+  background-size: cover;
+}
+.desc-properties{
+  min-height: 400px;
+  display: inline-block;
+  padding: 20px;
+  width: 40%;
+  background-color: #f5f5f5;
+  vertical-align: top;
+}
+.desc-properties h2{
+  width: 100%;
+  font-size: 1.1rem;
+  padding-bottom: 20px;
+  color: #252525;
+  border-bottom: 1px solid #d7d7d7;
+}
+.desc-properties ul{
+  font-size: 0;
+  padding: 20px 0;
+  border-bottom: 1px solid #d7d7d7;
+}
+.desc-properties ul li{
+  width: 25%;
+  display: inline-block;
+  font-size: .8rem;
+  color: #656565;
+  vertical-align: top;
+  text-align: center;
+}
+.desc-properties ul li img{
+  width: 25px;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+.desc-properties p {
+  font-size: .9rem;
+  color: #656565;
+  line-height: 1.2;
+  padding-top: 20px;
+}
+.sec-propers{
+  width: 95%;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+.sec-propers .sec-links{
+  display: block;
+  border-bottom: 1px solid #d7d7d7;
+  padding-top: 30px;
+  width: 100%;
+  text-align: center;
+}
+.sec-propers .sec-links li{
+  display: inline-block;
+  width: 100%;
+  max-width: 200px;
+}
+.sec-propers .sec-links li a{
+  text-transform: uppercase;
+  padding-bottom: 10px;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #00a9e0;
+  border-bottom: 4px solid #fff;
+}
+.sec-propers .sec-links li .active-link{
+  color: #252525;
+  border-bottom: 4px solid #00a9e0;
 }
 @media screen and (max-width: 500px){
   .app .app-cont{

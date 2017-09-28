@@ -34,7 +34,7 @@ d.slice(e-c+1,e+c+2).addClass("slick-active").attr("aria-hidden","false")),0===a
 
 //scripts
 $(document).ready(function(){
-	$("#lightgallery").lightGallery(); 
+	 
 	new WOW().init();
 	
   $('.slider-index').slick({
