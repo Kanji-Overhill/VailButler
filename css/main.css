@@ -978,11 +978,11 @@ footer .overlay{
   vertical-align: top;
 }
 .proper-head .slider-tre .item-slid{
-  min-height: 400px;
+  min-height: 441px;
   background-size: cover;
 }
 .desc-properties{
-  min-height: 400px;
+  min-height: 441px;
   display: inline-block;
   padding: 20px;
   width: 40%;
